@@ -3,7 +3,7 @@ import Card from './Card'
 
 const FormState = () => {
     const [formData, setFormData] = useState({
-        fullName : "",
+        full_name : "",
         email: "",
         password: "",
         passwordConfirm: "",
@@ -26,7 +26,7 @@ const FormState = () => {
         <input
           id="full_name"
           type="text"
-          value={formData.fullName}
+          value={formData.full_name}
           onChange={handleChange}
         />
       </div>

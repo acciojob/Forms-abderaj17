@@ -20,7 +20,7 @@ const App = () => {
             <li>
               <Link id="form-ref-link" to="/form-ref">Section 2: Form with useRef</Link>
             </li>
-            <Link id='form-ref-link' to="/form-ref">Section 3: Form with useState</Link>
+            <Link id='form-state-link' to="/form-ref">Section 3: Form with useState</Link>
           </ul>
         </nav>
         <switch>
